@@ -632,7 +632,7 @@ const g = { ...DEFAULTS };
     $exportBtn.addEventListener("click", () => renderer.render());
 
     // Load sprites
-    $hand.src = "./img/sprite.png";
+    $hand.src = "./img/petsp.png";
     imageLoader.loadImage("./img/sample.png");
 
     // Play animation once everything loads
